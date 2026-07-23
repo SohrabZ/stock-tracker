@@ -1,5 +1,9 @@
 # Stock Tracker
 
+[![CI](https://github.com/SohrabZ/stock-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/SohrabZ/stock-tracker/actions/workflows/ci.yml)
+[![Go 1.25+](https://img.shields.io/badge/Go-1.25%2B-00ADD8?logo=go&logoColor=white)](https://go.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+
 A command-line **stock trend monitor** written in Go. For each tracked symbol it
 pulls 5-day hourly data from Yahoo Finance, computes trend/volume/signal metrics
 and position P&L, detects changes since the last run, and prints a compact
