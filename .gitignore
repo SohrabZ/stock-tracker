@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.local
+
+# Compiled binary
+/stock-tracker
+
+# Personal financial data — commit positions.example.json instead
+resources/positions.json
+
+# Runtime state (regenerated each run)
+resources/monitor_state.json
+resources/explain_cache.json
+
+# Logs
+resources/*.log
+
+# Go
+*.out
+*.test
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
